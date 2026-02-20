@@ -87,7 +87,7 @@ if (args[0] == "all") {
  if (!command) {
   const arrayInfo = [];
   const page = parseInt(args[0]) || 1;
-    const numberOfOnePage = 15;
+    const numberOfOnePage = 50;
     let i = 0;
     let msg = "";
 
